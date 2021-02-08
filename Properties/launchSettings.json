@@ -12,14 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/Roulette",
-      "environmentVariables": {
-        "CW_ACCESS_KEY": "AKIAJBN3IWRQLJUM2DDA",
-        "SERVER_HOST": "localhost",
-        "LOG_MIN_LEVEL": "Warn",
-        "CW_SECRET_KEY": "vniUAhUXcgjblfikPbZ+Yjaar1CqTwI2PXBZT+Uz",
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      "launchUrl": "api/Roulette"
     },
     "Casino": {
       "commandName": "Project",
