@@ -1,0 +1,4 @@
+2021-02-06 16:40:49.1658|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2021-02-06 16:41:04.6557||WARN|Casino.Controllers.RouletteController|Roulette 2 is already open 
+2021-02-06 17:19:27.6109|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2021-02-06 17:19:46.9119||WARN|Casino.Controllers.RouletteController|Roulette 2 is already open 

@@ -1,0 +1,17 @@
+2021-02-06 16:40:48.1310||DEBUG|Casino.Program|init main function |url: |action: 
+2021-02-06 16:40:55.1393||INFO|Casino.Controllers.RouletteController|List of roulettes called |url: http://localhost/api/Roulette|action: Get
+2021-02-06 16:41:04.6557||WARN|Casino.Controllers.RouletteController|Roulette 2 is already open |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:26.7248||DEBUG|Casino.Program|init main function |url: |action: 
+2021-02-06 17:19:27.5842|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:63895/weatherforecast   |url: http://localhost/weatherforecast|action: 
+2021-02-06 17:19:27.6109|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/weatherforecast|action: 
+2021-02-06 17:19:27.6616|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 79.97290000000001ms 404  |url: http://localhost/weatherforecast|action: 
+2021-02-06 17:19:46.2292|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:63895/api/Roulette/open/2 application/json 76 |url: http://localhost/api/Roulette/open/2|action: 
+2021-02-06 17:19:46.2466|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Casino.Controllers.RouletteController.Put (Casino)' |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:46.3036|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Put", controller = "Roulette"}. Executing controller action with signature Boolean Put(Int32) on controller Casino.Controllers.RouletteController (Casino). |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:46.9119||WARN|Casino.Controllers.RouletteController|Roulette 2 is already open |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:46.9119|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Boolean'. |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:46.9369|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Casino.Controllers.RouletteController.Put (Casino) in 627.5466ms |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:46.9369|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Casino.Controllers.RouletteController.Put (Casino)' |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 17:19:46.9445|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 715.8305ms 200 application/json; charset=utf-8 |url: http://localhost/api/Roulette/open/2|action: Put
+2021-02-06 18:27:46.8964||DEBUG|Casino.Program|init main function |url: |action: 
+2021-02-06 19:03:34.4903||DEBUG|Casino.Log.NLogConfiguration|init main function |url: |action: 
