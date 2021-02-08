@@ -18,8 +18,8 @@ namespace Casino.Log
             try
             {
                 logger.Debug("init main function");
-                var accessKey = Environment.GetEnvironmentVariable("CW_ACCESS_KEY");
-                var secretKey = Environment.GetEnvironmentVariable("CW_SECRET_KEY");
+                var accessKey = Environment.GetEnvironmentVariable(EnvironmentSettings.CW_ACCESS_KEY);
+                var secretKey = Environment.GetEnvironmentVariable(EnvironmentSettings.CW_SECRET_KEY);
                 var config = new LoggingConfiguration();
                 var awsTarget = new AWSTarget()
                 {
@@ -30,7 +30,7 @@ namespace Casino.Log
                 config.AddTarget("aws", awsTarget);
                 config.LoggingRules.Add(new LoggingRule("*", GetLogLevel(), awsTarget));
                 LogManager.Configuration = config;
-                LogManager.Configuration.Variables["minLevel"] = Environment.GetEnvironmentVariable("LOG_MIN_LEVEL");
+                LogManager.Configuration.Variables["minLevel"] = Environment.GetEnvironmentVariable(EnvironmentSettings.LOG_MIN_LEVEL);
                 LogManager.ReconfigExistingLoggers();
                 CreateWebHostBuilder(args).Build().Run();
             }
@@ -56,7 +56,7 @@ namespace Casino.Log
 
         private static NLog.LogLevel GetLogLevel()
         {
-            string minLogLevel = Environment.GetEnvironmentVariable("LOG_MIN_LEVEL");
+            string minLogLevel = Environment.GetEnvironmentVariable(EnvironmentSettings.LOG_MIN_LEVEL);
             switch (minLogLevel)
             {
                 case "Trace":

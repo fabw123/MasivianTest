@@ -12,9 +12,10 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/Roulette",
       "environmentVariables": {
         "CW_ACCESS_KEY": "AKIAJBN3IWRQLJUM2DDA",
+        "SERVER_HOST": "localhost",
         "LOG_MIN_LEVEL": "Warn",
         "CW_SECRET_KEY": "vniUAhUXcgjblfikPbZ+Yjaar1CqTwI2PXBZT+Uz",
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -23,7 +24,7 @@
     "Casino": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/Roulette",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
