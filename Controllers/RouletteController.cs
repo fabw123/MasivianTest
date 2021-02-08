@@ -15,7 +15,6 @@ namespace Casino.Controllers
     [ApiController]
     public class RouletteController : ControllerBase
     {
-
         private readonly ILogger<RouletteController> logger;
 
         public RouletteController(ILogger<RouletteController> logger)
@@ -23,7 +22,6 @@ namespace Casino.Controllers
             this.logger = logger;
         }
 
-        // GET: api/Roulette
         [HttpGet]
         public IEnumerable<Roulette> Get()
         {
@@ -32,7 +30,6 @@ namespace Casino.Controllers
             return roulette.FindAll();
         }
 
-        // POST: api/Roulette
         [HttpPost]
         public int Post()
         {
@@ -41,7 +38,6 @@ namespace Casino.Controllers
             return roulette.Id;
         }
 
-        // PUT: api/Roulette/5
         [HttpPut("{id}")]
         [Route("open/{id}")]
         public bool Put(int id)

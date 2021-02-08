@@ -17742,3 +17742,39 @@
 2021-02-06 19:03:34.5456 Info Closing old configuration.
 2021-02-06 19:03:34.5980 Info Validating config: TargetNames=, ConfigItems=12
 2021-02-06 19:03:34.8389 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:28:34.8679 Info Message Template Auto Format enabled
+2021-02-07 20:28:34.9014 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-07 20:28:34.9133 Info Loading assembly: NLog.AWS.Logger
+2021-02-07 20:28:35.0119 Info Adding target FileTarget(Name=alldata)
+2021-02-07 20:28:35.0314 Info Adding target FileTarget(Name=otherFile-web)
+2021-02-07 20:28:35.1115 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=44, FilePath=D:\Projects\Casino\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-07 20:28:35.2290 Info Closing old configuration.
+2021-02-07 20:28:35.2811 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:28:35.5584 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:39:50.0145 Info Message Template Auto Format enabled
+2021-02-07 20:39:50.0444 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-07 20:39:50.0559 Info Loading assembly: NLog.AWS.Logger
+2021-02-07 20:39:50.1659 Info Adding target FileTarget(Name=alldata)
+2021-02-07 20:39:50.1831 Info Adding target FileTarget(Name=otherFile-web)
+2021-02-07 20:39:50.2771 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=44, FilePath=D:\Projects\Casino\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-07 20:39:50.3928 Info Closing old configuration.
+2021-02-07 20:39:50.4438 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:39:50.7008 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:40:29.0270 Info Message Template Auto Format enabled
+2021-02-07 20:40:29.0543 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-07 20:40:29.0543 Info Loading assembly: NLog.AWS.Logger
+2021-02-07 20:40:29.1569 Info Adding target FileTarget(Name=alldata)
+2021-02-07 20:40:29.1739 Info Adding target FileTarget(Name=otherFile-web)
+2021-02-07 20:40:29.2437 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=44, FilePath=D:\Projects\Casino\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-07 20:40:29.3568 Info Closing old configuration.
+2021-02-07 20:40:29.4079 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:40:29.6909 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:42:48.9818 Info Message Template Auto Format enabled
+2021-02-07 20:42:49.0346 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-07 20:42:49.0462 Info Loading assembly: NLog.AWS.Logger
+2021-02-07 20:42:49.1283 Info Adding target FileTarget(Name=alldata)
+2021-02-07 20:42:49.1475 Info Adding target FileTarget(Name=otherFile-web)
+2021-02-07 20:42:49.2107 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=44, FilePath=D:\Projects\Casino\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-07 20:42:49.3187 Info Closing old configuration.
+2021-02-07 20:42:49.3659 Info Validating config: TargetNames=, ConfigItems=12
+2021-02-07 20:42:49.5708 Info Validating config: TargetNames=, ConfigItems=12

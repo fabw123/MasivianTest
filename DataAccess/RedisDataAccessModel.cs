@@ -17,11 +17,10 @@ namespace Casino.DataAccess
         {
             if (this.db == null)
             {
-                var serverHost = Environment.GetEnvironmentVariable("SERVER_HOST");
+                var serverHost = Environment.GetEnvironmentVariable(EnvironmentSettings.SERVER_HOST);
                 this.connection = ConnectionMultiplexer.Connect(serverHost);
                 this.db = this.connection.GetDatabase(); 
             }
-
             return this.db != null;
         }
         public void Disconnect() 
@@ -71,9 +70,5 @@ namespace Casino.DataAccess
                 return JsonConvert.DeserializeObject<T>(value);
             }
         }
-
-
-
-        
     }
 }
